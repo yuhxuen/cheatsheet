@@ -1,0 +1,60 @@
+* {
+    font-family: 'Josefin Sans';
+    box-sizing: border-box;
+    margin: 0px; 
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(255, 231, 235);
+}
+
+h1, p {
+    text-align: center;
+}
+
+.top {
+    height: fit-content;
+    padding: 3%;
+    background-color:aliceblue;
+}
+
+.tperpro {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 30%;
+    margin: 20px auto;
+}
+
+h3{
+    padding-top: 20px;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+table, th, td{
+    width: 2%;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.poprod th, .poproa th, .popron th{
+    width: 80px;
+    height: 30px;
+    padding: 0 6px;
+}
+
+.tpoprod, .tpopron, .tpoproa {
+    width: 33%;
+    margin: 20px auto;
+}
+
+.poprod, .poproa, .popron {
+    width: fit-content;
+    text-align:center;
+    margin: 0 3%;
+    padding-top: 6px;
+    display: inline-table;
+}
+
